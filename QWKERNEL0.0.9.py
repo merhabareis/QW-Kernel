@@ -19,8 +19,8 @@ RESET = "\033[0m"
 CURRENT_COLOR = CYAN
 
 def boot_system():
-    print(f"{GREEN}QWos [Version 0.0.7 Extended DOS Edition]")
-    print("(C) Copyright Quality Waranty Corp. All rights reserved.\n")
+    print(f"{GREEN}QW Kernel Version 0.0.9")
+    print("(C) Copyright merhabareis All rights reserved.\n")
     print("Booting kernel...")
     time.sleep(1)
     print(f"Kernel booted successfully.{RESET}\n")
